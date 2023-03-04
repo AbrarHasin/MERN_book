@@ -1,0 +1,34 @@
+{
+  "name": "mern_book",
+  "version": "1.0.0",
+  "description": "MERN Stack Study",
+  "main": "app.js",
+  "scripts": {
+    "app": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbrarHasin/MERN_book.git"
+  },
+  "keywords": [
+    "MERN",
+    "CRUD"
+  ],
+  "author": "Abrar Hasin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbrarHasin/MERN_book/issues"
+  },
+  "homepage": "https://github.com/AbrarHasin/MERN_book#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
